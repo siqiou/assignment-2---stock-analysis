@@ -14,7 +14,7 @@ Stock Analysis assignment
 - The performance in 2018 is poor, only 2 stocks ENPH and RUN had positive returns over 80%, the 10 other stocks' returns are all negative. This indicates the same stocks are experiencing downward trends in the market. The execution time of the refactored script only took 0.6367188 seconds, which is also super fast.
 ![2018 Stocks](/VBA_Challenge_2018.png)
 ### Run time comparison
-- In the original code, 'yearValue' was not used, the year was manually entered in the VBA code, but all other codes are very similar. The 2017 run time took 12 seconds, but the 2018 run time was only 0.61 seconds. By changing the 'yearValue' shortened the extraction time.
+- In the original code, 'yearValue' was not used, the year was manually entered in the VBA code, but all other codes are very similar. The 2017 run time took 0.62 seconds, but the 2018 run time was 12 seconds. By changing the numbers in 'yearValue' shortened the extraction time.
   - ![/Orig 2017.png](https://github.com/siqiou/assignment-2---stock-analysis/blob/5b10b95893b8c5f88564f1133c74e62ae7f07077/Orig%202017.png)
   - ![/orig 2018.png](https://github.com/siqiou/assignment-2---stock-analysis/blob/595f68817668b7804110f9ea4713bcf74e75b520/orig%202018.png)
 ## Summary
