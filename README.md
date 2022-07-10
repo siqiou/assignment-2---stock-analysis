@@ -15,8 +15,8 @@ Stock Analysis assignment
 ![2018 Stocks](/VBA_Challenge_2018.png)
 ### Run time comparison
 - In the original code, 'yearValue' was not used, the year was manually entered in the VBA code, but all other codes are very similar. The 2017 run time took 12 seconds, but the 2018 run time was only 0.61 seconds. By changing the 'yearValue' shortened the extraction time.
-![Orig 2017 Stocks](/Orig 2017.png)
-![/orig 2018.png](https://github.com/siqiou/assignment-2---stock-analysis/blob/595f68817668b7804110f9ea4713bcf74e75b520/orig%202018.png)
+  - ![/Orig 2017.png](https://github.com/siqiou/assignment-2---stock-analysis/blob/5b10b95893b8c5f88564f1133c74e62ae7f07077/Orig%202017.png)
+  - ![/orig 2018.png](https://github.com/siqiou/assignment-2---stock-analysis/blob/595f68817668b7804110f9ea4713bcf74e75b520/orig%202018.png)
 ## Summary
 1. Advantages and Disadvantages of refactoring codes in general
 -- Advantages: The run time can be shortened, take less memory, works well with older computers.
