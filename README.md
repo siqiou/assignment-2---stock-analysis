@@ -9,14 +9,14 @@ Stock Analysis assignment
 ## Results of Stock Analysis
 ### 2017 Performance
 - Stocks performed well in 2017, 11 Tickers had positives returns, 4 Tickers showed positive return over 100%, only TERP had negative return of -7.2% shown in red. The execution only took 0.6823125 seconds. 
-- ![2017 Stocks Dataset](/2017 Stocks.png)
+- ![2017 Stocks Dataset](2017 Stocks.png)
 ### 2018 Performance
 - The performance in 2018 is poor, only 2 stocks ENPH and RUN had positive returns over 80%, the 10 other stocks' returns are all negative. This indicates the same stocks are experiencing downward trends in the market. The execution time of the refactored script only took 0.6367188 seconds, which is also super fast.
-- ![2017 Stocks Dataset](/2018 Stocks.png)
+- ![2017 Stocks Dataset](2018 Stocks.png)
 ### Run time comparison
 - In the original code, 'yearValue' was not used, the year was manually entered in the VBA code, but all other codes are very similar. The 2017 run time took 12 seconds, but the 2018 run time was only 0.61 seconds. By changing the 'yearValue' shortened the extraction time.
-- ![2017 Stocks Dataset](/orig 2017 Stocks.png)
-- ![2017 Stocks Dataset](/orig 2018 Stocks.png)
+- ![2017 Stocks Orig](orig 2017 Stocks.png)
+- ![2018 Stocks Orig](orig 2018 Stocks.png)
 ## Summary
 1. Advantages and Disadvantages of refactoring codes in general
 -- Advantages: The run time can be shortened, take less memory, works well with older computers.
